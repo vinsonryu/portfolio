@@ -1,0 +1,173 @@
+.gif img{
+    height: 300px;
+    width: 300px;
+}
+.gif{
+    width: 80vw;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.display{
+    display: none;
+}
+.readmore{
+    cursor: pointer;
+    font-style: italic;
+}
+
+h5{
+    font-size: 30px;
+    color: #D14545;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.info{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.clip{
+    width: 260px;
+    height: 350px;
+    background-color: gray;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.clipcontainer{
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.clip img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.tile{
+    width: 80%;
+    min-height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+p.tile{
+    margin: 0px;
+}
+
+.body{
+    height: max-content;
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.mainpanel{
+    padding: 0px 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111010;
+    height: 100vh;
+}
+.mainpanel p{
+    color: white;
+    font-size: 22px;
+}
+.mainpanel h1{
+    color: white;
+}
+.icons{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.profile{
+    width: 400px;
+    height: 530px;
+}
+
+.about{
+    width: 600px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.clipcontainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.clipcontainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+@media screen and (max-width:700px) {
+    .body{
+        width: 95vw;
+        max-width: 100%;
+    }
+    .mainpanel{
+        flex-direction: column;
+        height: max-content;
+        padding: 100px 0px;
+    }
+    .profile{
+        margin-top: 60px;
+        width: 90vw;
+        max-width: 100%;
+        height: auto;
+    }
+    .about{
+        width: 90vw;
+        margin: auto;
+        height: auto;
+    }
+
+    p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .brand{
+        position: fixed;
+        left: -10px;
+    }
+    .worktitle{
+        text-align: center;
+    }
+    .textxl{
+        font-size: 96px;
+    }
+    .banner{
+        height: 100vh;
+    }
+    .clip{
+        min-width: 200px;
+        min-height: 300px;
+    }
+    .tile{
+        width: 100%;
+        font-size: 14px;
+        line-height: unset;
+        padding: 5px;
+    }
+
+}
+
