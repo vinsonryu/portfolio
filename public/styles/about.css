@@ -17,6 +17,9 @@
     font-style: italic;
     color: blue;
 }
+a{
+    color: #ffffff;
+}
 .title{
     margin-bottom: 50px;
 }
