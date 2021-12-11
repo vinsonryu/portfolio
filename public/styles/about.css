@@ -15,8 +15,21 @@
 .readmore{
     cursor: pointer;
     font-style: italic;
+    color: blue;
 }
-
+.title{
+    margin-bottom: 50px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #D14545;
+    color: #ffffff;
+    font-size: large;
+    margin-top: 15px;
+}
 h5{
     font-size: 30px;
     color: #D14545;
@@ -32,7 +45,7 @@ h5{
 h4{
     font-size: 24px;
     margin-top: 30px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .clip{
     width: 260px;
@@ -80,15 +93,15 @@ p.tile{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111010;
+    background-color: #ffffff;
     height: 100vh;
 }
 .mainpanel p{
-    color: white;
+    color: rgb(17, 16, 16);
     font-size: 22px;
 }
 .mainpanel h1{
-    color: white;
+    color: rgb(14, 13, 13);
 }
 .icons{
     display: flex;
@@ -101,7 +114,7 @@ p.tile{
     height: 50px;
 }
 .profile{
-    width: 400px;
+    width: auto;
     height: 530px;
 }
 

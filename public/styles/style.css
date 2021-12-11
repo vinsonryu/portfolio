@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: 'Oxygen', sans-serif;
 }
+
 .display{
     display: none;
 }
@@ -29,7 +30,7 @@ html{
     margin-right: 30px;
 }
 #nav a{
-    color: rgb(246, 241, 241);
+    color: rgb(22, 21, 21);
 }
 .nav{
     display: flex;
@@ -40,8 +41,8 @@ html{
 .brand{
     margin: 30px;
     font-size: 24px;
-    color: rgb(246, 243, 243);
-    font-weight: 700;
+    color: rgb(26, 24, 24);
+    font-weight: bolder;
 }
 #nav{
     display: flex;
@@ -64,18 +65,26 @@ body{
     scroll-behavior: smooth;
 }
 .intro{
-    /* text-align: center; */
-    margin: auto;
-    width: 75vw;
-    margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
-    color: gray;
+    color: rgb(104, 104, 104);
+}
+#textbox{
+    width: 700px;
+    height: auto;
+}
+h4{
+    margin-left: 8vw;
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+    color: black;
 }
 
 /* card */
 .cont{
-    max-width: 90vw;
+    max-width: 96vw;
     height: auto;
     margin: auto;
     display: flex;
@@ -90,70 +99,39 @@ body{
 }
 
 .card-item{
-    width: 400px;
+    width: 500px;
     height: auto;
     max-height: 500px;
     float: left;
     margin: 35px;
-
 }
 .card-item + .design{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);    
+    background-color: #ffffff;
 }
 .card-item img{
     width: auto;
     max-width: 100%;
     height: auto;
     min-height: 90%;
+    border-radius: 10px;
 }
 
 /* 3d banner */
-.megatron{
-    width: 100vw;
-    max-width: 100%;
-    height: 100vh;
-    background-color: rgb(125, 169, 250);
-    background-image: url("/images/bg.jpg");
-    background-position: center;
-    background-size: cover;
+
+.image{
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 50px;
-    color: white;
-    padding-top: 15vh;
-    transition: all 0.5s ease-in;
+    width: 95vw;
+    height: 40vh;
+    margin: auto;
+    display: grid;
+    place-items: center;
 }
 #megatxt{
-    font-size: 15vw;
-    letter-spacing: 10px;
-}
-.jumbotxt{
-    position: absolute;
-    font-size: 7vw;
-    z-index: 11;
-}
-.txt{
-    position: absolute;
-    left: 30vw;
-    top:20vh;
-    pointer-events: none;
-    /* z-index: 8; */
-}
-model-viewer{
-    width: 100vw;
-    max-width: 100%;
-    height: 80vh;
-    margin: auto;
-    z-index: 9;
+    font-size: 24px;
+    color: #3b7cf4;
 }
 
-.clickme{
-    content: "click me";
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-}
 
 /* footer */
 
@@ -171,21 +149,6 @@ footer>{
     width: 20%;
     /* height: fit-content; */
 }
-.cta{
-    height: 60px;
-    width: 150px;
-    background-color: #D14545;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 7px;
-}
-footer img{
-    width: 300px;
-    height: 100%;
-    background-color: rgb(182, 182, 182);
-}
 .sociallinks{
     display: flex;
 }
@@ -195,8 +158,8 @@ footer img{
     cursor: pointer;
     margin-top: 20px;
     display: flex;
-    width: 800px;
-    margin: auto;
+    width: 500px;
+    margin-left: 8vw;
     justify-content: space-between;
 }
 
