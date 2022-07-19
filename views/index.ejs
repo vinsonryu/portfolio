@@ -1,46 +1,77 @@
-<%- include('header.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inter:wght@300;400;600;700;900&family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+    <nav class="nav">
+        <p class="nav-brand">Vinson</p>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <p class="header-text u-mb-s u-mt-xl">Hewwo stranger! I'm <span class="u-color-red">Vinson</span>, I design and develop websites. While exploring my hobbies and interests.</p>
+    </header>
 
-    
-        <div class="image">
-            <div id="textbox">
-            <p class="intro">Hej, I am Vinson,</br> A design enthusiast currently pursuing a bachelors degree in Electronics and communication engineering. 
-                My focus is to create creative designs and implement ideas that people love to use</p>
-            <h1 id="megatxt">
-            Look down to find stuff my brain created for serotonin</h1>
+    <main class="main">
+        <h3 class="heading-three u-mb-md">Selected work</h3>
+        <div class="card-container">
+            
+            <div class="card">
+                <a href="/starly">
+                <img src="images/youssef-naddam-iJ2IG8ckCpA-unsplash.jpg" alt="#" class="card-img">
+                <h4 class="card-heading u-mb-xs">Starly</h4>
+            </a>
             </div>
+
+            <div class="card" id="unfinished">
+                <a href="/starly">
+                <img src="images/Making art-bro.png" alt="#" class="card-img">
+                <h4 class="card-heading u-mb-xs">Coming soon</h4>
+            </a>
+            </div>
+
+
+        </div>  <!-- */ card container */ -->
+
+    <h3 class="heading-three u-mt-xl u-mb-md">Other work</h3>
+        <div class="post-container">
+            <div class="post">  <img src="images/ui.png" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/Frame 4.png" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/MacBook - 3.png" alt="#" class="post-img">  </div>
+            
+            <div class="post">  <img src="images/art/2022-06-26_142719.jpg" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/art/2022-06-26_143526 (2).jpg" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/art/2022-06-26_143423 (2).jpg" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/art/Document_2022-06-26_142841.jpg" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/art/Photo_2022-06-26_142358.jpg" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/art/Photo_2022-06-26_142605.jpg" alt="#" class="post-img">  </div>
+            <div class="post">  <img src="images/art/Photo_2022-06-26_143157.jpg" alt="#" class="post-img">  </div>
         </div>
 
+    </main>
 
-    <h4>Selected work</h4>
-
-    <!-- <ul class="worknav">
-        <li class="card-link" id="all">All</li>
-        <li class="card-link" id="design">Designs</li>
-        <li class="card-link" id="illustration">illustrations</li>
-        <li class="card-link" id="td">3D work</li>
-        <li class="card-link" id="art">Art</li>
-    </ul> -->
-    <div class="cont">
-        <div class="card-item all design"><a href="https://www.behance.net/gallery/129429953/Starly"><img src="images\Frame 3.png" alt=""><h3>Case study</h3></a></div>
-        <div class="card-item all design"> <a href="https://www.figma.com/file/JV4ZlvJ7dykLH93VX7IjUM/Untitled?node-id=0%3A1"> <img src="images\Frame 2.png" alt=""></a></div>
-        <div class="card-item all design"> <a href="https://www.figma.com/file/npEiIn6umjlrfJpAxVjuOw/designs?node-id=0%3A1"> <img src="images\Frame 1.png" alt=""></a></div>
-        <div class="card-item all design"> <a href="#"> <img src="images\Frame 4.png" alt=""></a></div>
-        <div class="card-item all design"> <a href="https://www.figma.com/file/I9W9rH2YIYzpdngv2ObAUj/Untitled?node-id=0%3A1"> <img src="images\MacBook Pro - 1.png" alt=""></a></div>
-
-    </div>
-
-<!-- 
-    <footer>
-    <div class="contact"><h1>Connect</h1>
-        <p>vinson2346@gmail.com</p>
-        <div class="sociallinks">
-            <div class="icon"></div>
-            <div class="icon"></div>
-            <div class="icon"></div>
+    <footer class="footer u-mt-xl u-mb-md">
+        <div class="footer-content">
+            <h6 class="footer-heading u-mb-s">Don't be a stranger</h6>
+            <ul class="icon-list">
+                <li><a href="https://www.behance.net/Vinson"><img src="logos/behance-1.svg" alt="" class="icon"></a></li>
+                <li><a href="https://dribbble.com/Ryu2703"><img src="logos/dribbble-icon.svg" alt="" class="icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/d-vinson-49240a207"><img src="logos/linkedin-icon-2.svg" alt="" class="icon"></a></li>
+                <li><a href="mailto:vinson2346@gmail.com"><img src="logos/Gmail_Logo.svg" alt="" class="icon"></a></li>
+            </ul>
         </div>
-    </div>
-    </footer>  -->
-<script src="scripts/index.js"></script>
-<script src="scripts/burger.js"></script>
+    </footer>
 </body>
 </html>

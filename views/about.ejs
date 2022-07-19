@@ -1,44 +1,64 @@
-<%- include('header.ejs') %> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inter:wght@300;400;600;700;900&family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+    <nav class="nav">
+        <p class="nav-brand">Vinson</p>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+        </ul>
+    </nav>
+    <header class="about-header">
+    </header>
 
+    <main>
+        <section class="about-hero">
+            <div class="about-text-container">
+            <h1 class="heading-primary h1">Me</h1>
+            <h1 class="heading-primary h2">Games</h1>
+            <h1 class="heading-primary h3">Adventures</h1>
+            <h1 class="heading-primary h4">Books</h1>
+            <h1 class="heading-primary h5">Art</h1>
+            <h1 class="heading-primary h6">Cooking</h1>
+            <div class="textimg"></div>
+            </div>
 
-    <div class="mainpanel">
-        <div class="about">
-            <h1 class="title">About</h1>
-            <p>Hey i am vinson, I am a electrcal enginnering student, but i decided that wasn’t for me and put all my effort on design. Research and analyzing, designs and prototype, controlling the experience of the next billion users, I couldn’t ask for more </p>
-            <button> <a href="/gif/Resume.pdf" target="_blank">resume</a> </button>
-
+        </section>
+        <section class="about-main">
+        <p class="about-text">I am a Undergrad engineer who has found what i wanted to do during this pandemic, which has given me lots of time to look at myself and crafting user experiences has caught my eye along with web developement and a bit of AI, but I have decided that UI/UX design is what i am going to purse the moment i learned about it and have dweled deeper into this ever since.</p>
+        <div class="form-container u-mt-xl">
+            <form action="https://formspree.io/f/xvolyjkk" method="post" class="u-mt-xl">
+                <h3>Lets have a chat</h3>
+                <input type="text" class="input" id="name" name="name" placeholder="Name" required>
+                <input type="email" class="input" name="emailid" id="email" placeholder="Email">
+                <input type="text" class="input" name="message" id="message" placeholder="Message">
+                <button type="submit" class="btn btn-submit">Send</button>
+            </form>
         </div>
-        <img src="/images/Rectangle 130.png" alt="" class="profile">
-    </div>
-    <div class="body aboutbody">
-
-        <!-- intro -->
-        <h5>My journey</h5>
-        <p class="info">March 30 2020, my college has announced lockdown due to covid-19. It was before my second semester (freshman year). I had no idea what i was going to do with my life, i was just going with the flow around me, after a month they announced complete lockdown and i was left with a lot of free time it made me wander into the world of coding,
-            <span class="readmoretext"> I started with python for a few day’s but i got bored and wanted something more creative and i discovered web development it really piqued my intrest and i took a web developement course on udemy and stick to it all day. i completed it in about 3 months but the college works got loaded i started to realize that electrical engineering was not for me but i couldn’t change my major and i really needed that certificate to do anything afterwards so i just continued and then i stopped coding when my semester exams started it became really stressful so fast forward to third semester, once again lockdown right before the exams, It was then that i discovered the world of design (UI/Ux). Then i tought this was for me and took googles professional UI/Ux course through coursera and i completed it in a month. Well since then i just continued doing what i love and made a lot plans for the future. Design gave me hope and hit with a important realization..</span><span class="readmore">readmore...</span> </p>
-        <div class="gif"><img src="/gif/Akira trash.gif" alt="" srcset=""></div>
-        <!-- skills -->
-
-        <h5>How i got my design powers</h5>
-        <p class="info">Practise Practise Practise..., well this what helped me the most along with some youtube tutorials and some inspiration from fellow designers, google's profesional course and last but not least you need to have intrest and passion towards what you are doing and dedicate yourself to it.</p>
-        <!-- other stuff -->
-        
-        <h5>Other hobbies and adventures</h5>
-        <p class="info">Well my curiosity spreads wide and so do my intrests apart from the usual design and web developement i am intrested in videogames, sketching, going on adventures w/ friends, cooking, watching anime and movies, reading novels and a few intresting books that catch my eye, trying out new ways to spend my creative juices, riding my bike and just having fun and meeting new people</p>
-    <!-- <div class="clipcontainer">
-        <div class="clip"><img src="assets/images/about/damiano-baschiera-hFXZ5cNfkOk-unsplash.jpg" alt=""></div>
-        <div class="clip"><img src="assets/images/about/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg" alt=""></div>
-        <div class="clip"><img src="assets/images/about/fabio-silva-nmTm7knUnqs-unsplash.jpg" alt=""></div>
-        <div class="clip"><img src="assets/images/about/sunorwind-C1MJ8IYUSmU-unsplash.jpg" alt=""></div>
-    
-        
-    </div> -->
-    </div>
-    
-    <script src="scripts/index.js"></script>
-    <script src="scripts/burger.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="scripts/slider.js"></script>
+    </section>
+    </main>
+    <footer class="footer about-footer">
+        <div class="footer-content">
+            <h6 class="footer-heading u-mb-s">Don't be a stranger</h6>
+            <ul class="icon-list">
+                <li><img src="logos/behance-1.svg" alt="" class="icon"></li>
+                <li><img src="logos/dribbble-icon.svg" alt="" class="icon"></li>
+                <li><img src="logos/linkedin-icon-2.svg" alt="" class="icon"></li>
+                <li><img src="logos/instagram-5.svg" alt="" class="icon"></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

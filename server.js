@@ -10,6 +10,9 @@ app.get("/", function(req,res){
 app.get("/about", function(req,res){
     res.render("about")
 })
+app.get("/starly", function(req,res){
+  res.render("starly")
+})
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
